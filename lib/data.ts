@@ -4,8 +4,8 @@ export const profile = {
   taglineCode: "Mobile & Full-Stack Engineer",
   email: "riffath.emedia@gmail.com",
   phone: "+94 767013040",
-  fiverr: "https://fiverr.com/qwerty_works",
-  miloAnimates: "https://www.facebook.com/miloAnimates",
+  fiverr: "https://www.fiverr.com/qwerty_works?public_mode=true",
+  miloAnimates: "https://www.facebook.com/share/1BgDYP9W4C/",
   github: "https://github.com/riffathRHM",
   linkedin: "#", // TODO: add real LinkedIn URL
   summaryDesign:
