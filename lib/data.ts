@@ -3,7 +3,7 @@ export const profile = {
   taglineDesign: "Graphic Designer",
   taglineCode: "Mobile & Full-Stack Engineer",
   email: "riffath.emedia@gmail.com",
-  phone: "+94 767013040",
+  phone: "+971 506471697",
   fiverr: "https://www.fiverr.com/qwerty_works?public_mode=true",
   miloAnimates: "https://www.facebook.com/share/1BgDYP9W4C/",
   github: "https://github.com/riffathRHM",
