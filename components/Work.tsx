@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useLens } from "./LensProvider";
 import SectionHeading from "./SectionHeading";
 import DesignWork from "./DesignWork";
+import VideoEdits from "./VideoEdits";
 import Projects from "./Projects";
 
 export default function Work() {
@@ -29,7 +30,14 @@ export default function Work() {
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.35 }}
           >
-            {lens === "design" ? <DesignWork /> : <Projects />}
+            {lens === "design" ? (
+              <>
+                <DesignWork />
+                <VideoEdits />
+              </>
+            ) : (
+              <Projects />
+            )}
           </motion.div>
         </AnimatePresence>
       </div>

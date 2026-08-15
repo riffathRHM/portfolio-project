@@ -11,7 +11,7 @@ export const profile = {
   summaryDesign:
     "Graphic designer with 4+ years of freelance experience across logos, brochures, flyers, leaflets, and brand stationery for clients worldwide, holding a 5.0-star rating across 20+ Fiverr reviews.",
   summaryCode:
-    "Mobile engineer with 2+ years shipping production Flutter and SwiftUI apps to the App Store and Google Play, plus full-stack experience across Node.js, Express, and MongoDB.",
+    "Mobile engineer with 4+ years shipping production Flutter and SwiftUI apps to the App Store and Google Play, plus full-stack experience across Node.js, Express, and MongoDB.",
 };
 
 export const skillsDesign = [
@@ -27,13 +27,42 @@ export const skillsDesign = [
 
 export const skillsCode = {
   Languages: ["Swift", "Dart", "JavaScript", "Java", "PHP", "Python"],
-  "Frontend (Web)": ["React.js", "Redux", "TypeScript", "Context API", "HTML5", "CSS3"],
-  Mobile: ["Flutter", "SwiftUI", "UIKit", "React Native", "Combine", "REST API Integration"],
+  "Frontend (Web)": [
+    "React.js",
+    "Redux",
+    "TypeScript",
+    "Context API",
+    "HTML5",
+    "CSS3",
+  ],
+  Mobile: [
+    "Flutter",
+    "SwiftUI",
+    "UIKit",
+    "React Native",
+    "Combine",
+    "REST API Integration",
+  ],
   Backend: ["Node.js", "Express.js", "RESTful APIs", "JWT"],
   Databases: ["MongoDB", "MySQL", "Firebase Firestore", "Core Data"],
-  "Tools & Cloud": ["Git", "GitHub", "Bitbucket", "Xcode", "VS Code", "CI/CD", "AWS/GCP"],
+  "Tools & Cloud": [
+    "Git",
+    "GitHub",
+    "Bitbucket",
+    "Xcode",
+    "VS Code",
+    "CI/CD",
+    "AWS/GCP",
+  ],
   Integrations: ["Stripe", "In-App Purchases", "Social Login (OAuth)"],
-  Concepts: ["Agile/Scrum", "MVVM", "MVC", "OOP", "Performance Optimisation", "App Store Deployment"],
+  Concepts: [
+    "Agile/Scrum",
+    "MVVM",
+    "MVC",
+    "OOP",
+    "Performance Optimisation",
+    "App Store Deployment",
+  ],
 };
 
 export const experienceCode = [
@@ -99,8 +128,14 @@ export const appProjects = [
   },
   {
     name: "FitBlazer",
-    description: "Fitness and wellness marketplace across New Zealand and Australia.",
-    stack: ["Flutter", "Firebase Firestore", "Firebase Cloud Messaging", "REST APIs"],
+    description:
+      "Fitness and wellness marketplace across New Zealand and Australia.",
+    stack: [
+      "Flutter",
+      "Firebase Firestore",
+      "Firebase Cloud Messaging",
+      "REST APIs",
+    ],
     points: [
       "Integrated Firebase Firestore for real-time data sync.",
       "Implemented push notifications using Firebase Cloud Messaging.",
@@ -112,9 +147,7 @@ export const appProjects = [
     name: "How Did You Survive",
     description: "Community-driven storytelling platform.",
     stack: ["SwiftUI", "REST APIs"],
-    points: [
-      "Contributed SwiftUI interfaces and integrated backend APIs.",
-    ],
+    points: ["Contributed SwiftUI interfaces and integrated backend APIs."],
     link: "https://apps.apple.com/us/app/how-did-you-survive/id6733222990",
   },
 ];
@@ -122,15 +155,29 @@ export const appProjects = [
 export const sideProjects = [
   {
     name: "Multi-Vendor Marketplace Mobile App",
-    stack: ["Flutter", "Node.js", "Express.js", "MongoDB", "Stripe", "JWT", "REST API"],
+    stack: [
+      "Flutter",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Stripe",
+      "JWT",
+      "REST API",
+    ],
     points: [
       "Architected a full-stack multi-vendor marketplace from scratch — vendor onboarding, product catalogue, cart, order tracking, and Stripe checkout for Android and iOS.",
       "Designed role-based access control (RBAC) for 3 user tiers with JWT-secured, middleware-protected routes.",
       "Structured a scalable REST API with 20+ endpoints for clean frontend/backend decoupling.",
     ],
     links: [
-      { label: "Backend", href: "https://github.com/riffathRHM/multistore-backend" },
-      { label: "Flutter app", href: "https://github.com/riffathRHM/multistore-flutter" },
+      {
+        label: "Backend",
+        href: "https://github.com/riffathRHM/multistore-backend",
+      },
+      {
+        label: "Flutter app",
+        href: "https://github.com/riffathRHM/multistore-flutter",
+      },
     ],
   },
   {
@@ -141,7 +188,12 @@ export const sideProjects = [
       "Implemented stateless JWT authentication with refresh token rotation.",
       "Developed RESTful APIs for menu management, accounts, and order processing.",
     ],
-    links: [{ label: "Repository", href: "https://github.com/riffathRHM/foodDelivery_MERN" }],
+    links: [
+      {
+        label: "Repository",
+        href: "https://github.com/riffathRHM/foodDelivery_MERN",
+      },
+    ],
   },
 ];
 
@@ -152,6 +204,39 @@ export const designWork = [
   { title: "Business Card Set", category: "Stationery" },
   { title: "Milo Animates Character", category: "Character Design" },
   { title: "Client Forms Redesign", category: "Print Layout" },
+];
+
+export const videoWork = [
+  {
+    title: "Real Estate",
+    category: "REAL ESTATE",
+    video: "/videos/video-1.mp4",
+  },
+  {
+    title: "Home Improvement Services",
+    category: "HOME MAINTENANCE",
+    video: "/videos/video-2.mp4",
+  },
+  {
+    title: "Business Automation & Optimization",
+    category: "BUSINESS GROWTH SOLUTIONS",
+    video: "/videos/video-3.mp4",
+  },
+   {
+    title: "Artificial Intelligence",
+    category: "AI",
+    video: "/videos/video-4.mp4",
+  },
+  {
+    title: "Ai Videos",
+    category: "AI GENERATED VIDEOS",
+    video: "/videos/video-5.mp4",
+  },
+  {
+    title: "SaaS Videos",
+    category: "TECHNICAL VIDEOS",
+    video: "/videos/video-6.mp4",
+  },
 ];
 
 export const education = {
@@ -221,5 +306,5 @@ export const stats = [
   { label: "Fiverr rating", value: "5.0★" },
   { label: "Design projects delivered", value: "20+" },
   { label: "Milo Animates followers", value: "273K+" },
-  { label: "Years shipping code", value: "2+" },
+  { label: "Years shipping code", value: "4+" },
 ];
