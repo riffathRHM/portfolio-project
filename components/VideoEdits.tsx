@@ -57,6 +57,7 @@ export default function VideoEdits() {
                                     videoRefs.current[item.title] = el;
                                 }}
                                 src={item.video}
+                                poster={item.poster}
                                 muted
                                 loop
                                 playsInline

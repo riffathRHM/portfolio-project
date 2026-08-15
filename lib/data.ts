@@ -211,31 +211,37 @@ export const videoWork = [
     title: "Real Estate",
     category: "REAL ESTATE",
     video: "/videos/video-1.mp4",
+    poster: "/images/video-poster-1.jpg",
   },
   {
     title: "Home Improvement Services",
     category: "HOME MAINTENANCE",
     video: "/videos/video-2.mp4",
+    poster: "/images/video-poster-2.jpg",
   },
   {
     title: "Business Automation & Optimization",
     category: "BUSINESS GROWTH SOLUTIONS",
     video: "/videos/video-3.mp4",
+    poster: "/images/video-poster-3.jpg",
   },
-   {
+  {
     title: "Artificial Intelligence",
     category: "AI",
     video: "/videos/video-4.mp4",
+    poster: "/images/video-poster-4.jpg",
   },
   {
     title: "Ai Videos",
     category: "AI GENERATED VIDEOS",
     video: "/videos/video-5.mp4",
+    poster: "/images/video-poster-5.jpg",
   },
   {
     title: "SaaS Videos",
     category: "TECHNICAL VIDEOS",
     video: "/videos/video-6.mp4",
+    poster: "/images/video-poster-6.jpg",
   },
 ];
 
