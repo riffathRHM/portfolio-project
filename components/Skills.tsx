@@ -16,7 +16,7 @@ export default function Skills() {
           title={lens === "design" ? "The design toolkit" : "The engineering toolkit"}
           description={
             lens === "design"
-              ? "Everything that goes into taking a brand from a client's brief to something print-ready."
+              ? "The tools and skills I use to turn a client brief into finished design work."
               : "Languages, frameworks, and tools used to ship production mobile and full-stack apps."
           }
         />

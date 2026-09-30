@@ -85,10 +85,10 @@ export const experienceDesign = [
     org: "Fiverr — qwerty_works",
     period: "Nov 2022 — Present",
     points: [
-      "Delivered 20+ completed design projects (logos, brochures, leaflets, letterheads, posters) for clients across the UK, Germany, India, USA, and UAE, maintaining a 5.0-star average rating.",
-      "Translated client briefs into print-ready designs using Adobe Illustrator, Photoshop, and Canva with a 1–6 day average turnaround.",
-      "Managed multiple revision rounds per project, including research into unfamiliar languages, cultures, and industries.",
-      "Produced advertising posters and campaign material tailored to specific regional audiences.",
+      "Completed 20+ design projects, including logos, brochures, leaflets, letterheads, and posters, for clients in the UK, Germany, India, USA, and UAE. Maintained a 5.0-star average rating on Fiverr.",
+      "Created print-ready designs from client briefs using Adobe Illustrator, Photoshop, and Canva, usually completing projects within 1–6 days.",
+      "Worked through client revisions and researched unfamiliar languages, cultures, and industries when needed.",
+      "Designed advertising posters and promotional materials for different audiences and markets.",
     ],
   },
   {

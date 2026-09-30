@@ -12,7 +12,7 @@ export default function Experience() {
   return (
     <section id="experience" className="border-b border-line px-6 py-20 md:py-28">
       <div className="mx-auto max-w-wrap">
-        <SectionHeading eyebrow="Experience" title="Where the work happened" />
+        <SectionHeading eyebrow="Experience" title="Experience" />
 
         <AnimatePresence mode="wait">
           <motion.div

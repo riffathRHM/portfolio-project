@@ -63,22 +63,20 @@ export default function Hero() {
         >
           <button
             onClick={() => setLens("design")}
-            className={`rounded-full border px-4 py-2 font-mono text-[13px] transition-colors ${
-              lens === "design"
+            className={`rounded-full border px-4 py-2 font-mono text-[13px] transition-colors ${lens === "design"
                 ? "border-accent bg-accent text-accent-ink"
                 : "border-line text-muted hover:text-ink"
-            }`}
+              }`}
           >
             {profile.taglineDesign}
           </button>
-          <span className="font-display text-lg text-muted">&</span>
+          <span className="font-display text-lg text-muted">|</span>
           <button
             onClick={() => setLens("code")}
-            className={`rounded-full border px-4 py-2 font-mono text-[13px] transition-colors ${
-              lens === "code"
+            className={`rounded-full border px-4 py-2 font-mono text-[13px] transition-colors ${lens === "code"
                 ? "border-accent bg-accent text-accent-ink"
                 : "border-line text-muted hover:text-ink"
-            }`}
+              }`}
           >
             {profile.taglineCode}
           </button>

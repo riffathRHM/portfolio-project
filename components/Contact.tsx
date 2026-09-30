@@ -16,7 +16,7 @@ export default function Contact() {
           Contact
         </p>
         <h2 className="text-balance font-display text-4xl leading-[1.05] tracking-tight md:text-6xl">
-          Have a brief, or a build?
+         Have a project in mind?
           <br />
           <span className="italic">Let&apos;s talk.</span>
         </h2>

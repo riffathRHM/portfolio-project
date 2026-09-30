@@ -7,8 +7,8 @@ export default function About() {
       <div className="mx-auto max-w-wrap">
         <SectionHeading
           eyebrow="About"
-          title="Two crafts, one attention to detail."
-          description="Design work is where I learned to read a brief closely and deliver something a client didn't have to fix. Engineering is where I learned to ship things that hold up in production. Both come from the same habit: care about the details nobody asked you to care about."
+          title="Design and development, together."
+          description="I started with design and later moved into software development. Both taught me the same thing: understand what the client needs, pay attention to the details, and deliver work that works well."
         />
 
         <div className="grid gap-10 md:grid-cols-3">

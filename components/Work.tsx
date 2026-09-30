@@ -18,7 +18,7 @@ export default function Work() {
           title={lens === "design" ? "Brand & print design" : "Shipped apps & side projects"}
           description={
             lens === "design"
-              ? "A sample of brochures, brand identities, and campaign material — swap in real project shots whenever you're ready."
+              ? "A selection of my brochure, branding, print, and advertising work."
               : "Production apps live on the App Store, plus full-stack projects built end to end."
           }
         />
