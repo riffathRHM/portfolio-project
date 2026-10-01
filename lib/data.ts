@@ -11,7 +11,7 @@ export const profile = {
   summaryDesign:
     "Graphic designer with 4+ years of freelance experience across logos, brochures, flyers, leaflets, and brand stationery for clients worldwide, holding a 5.0-star rating across 20+ Fiverr reviews.",
   summaryCode:
-    "Mobile engineer with 4+ years shipping production Flutter and SwiftUI apps to the App Store and Google Play, plus full-stack experience across Node.js, Express, and MongoDB.",
+    "Mobile engineer with 2+ years shipping production Flutter and SwiftUI apps to the App Store and Google Play, plus full-stack experience across Node.js, Express, and MongoDB.",
 };
 
 export const skillsDesign = [
